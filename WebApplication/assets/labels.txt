@@ -1,0 +1,1 @@
+left,right,down,up,leftclick,rightclick,scrollup,scrolldown
