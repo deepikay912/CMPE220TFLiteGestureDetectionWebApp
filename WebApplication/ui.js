@@ -17,7 +17,7 @@ var ui = ui || {}
 
 
 const CONTROLS = [
-  'up', 'down', 'left', 'right', 'stop', 'straight', 'scrollup',
+  'up', 'down', 'left', 'right', 'leftclick', 'rightclick', 'scrollup',
   'scrolldown'
 ];
 var controlsCaptured = [], labelsCaptured = [];
@@ -188,8 +188,8 @@ const upButton = document.getElementById('up');
 const downButton = document.getElementById('down');
 const leftButton = document.getElementById('left');
 const rightButton = document.getElementById('right');
-const leftClickButton = document.getElementById('stop');
-const rightClickButton = document.getElementById('straight');
+const leftClickButton = document.getElementById('leftclick');
+const rightClickButton = document.getElementById('rightclick');
 const scrollUpButton = document.getElementById('scrollup');
 const scrollDownButton = document.getElementById('scrolldown');
 
