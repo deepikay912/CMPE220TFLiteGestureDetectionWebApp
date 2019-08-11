@@ -50,7 +50,7 @@ This step involves loading the aforementioned custom classification block that w
 Generating the TensorFlow Lite model
 After obtaining the Keras H5 model, the session is cleared of all the global variables and reloaded again from the saved Keras model. Finally, the TensorFlow Lite Optimizing Converter or TOCO is used to convert the model from Keras to TFLite FlatBuffers.
 
-# How to run app 
+# How to run app  
 
  Open intex.html in browser 
  Click on train to train data, test to test data, download to download model and weights
