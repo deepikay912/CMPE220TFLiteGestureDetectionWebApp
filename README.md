@@ -21,7 +21,7 @@ User can download trained model and weights from application.
 Converted downloaded model to TFLite model using TensorFlow converter
 Tested converted model using same web application.
 
-![UI](https://github.com/deepikay912/CMPE220TFLiteGestureDetectionWebApp/blob/master/UIScreenshots/UI.png)
+![UI](https://github.com/deepikay912/CMPE220TFLiteGestureDetectionWebApp/blob/master/UIScreenshots/UIImage.png)
 
 
 
