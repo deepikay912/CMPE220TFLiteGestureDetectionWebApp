@@ -14,12 +14,14 @@ WebCam is must to run train the model
 
 # Features & Steps:
 
--> User can train model by adding multiple gestures
--> User can see loss and accuracy in web application
--> User can test the model by giving some test images and our trained model will show predicted gesture on app.
--> User can download trained model and weights from application.
--> Converted downloaded model to TFLite model using TensorFlow converter
--> Tested converted model using same web application.
+User can train model by adding multiple gestures
+User can see loss and accuracy in web application
+User can test the model by giving some test images and our trained model will show predicted gesture on app.
+User can download trained model and weights from application.
+Converted downloaded model to TFLite model using TensorFlow converter
+Tested converted model using same web application.
+
+![UI](https://github.com/deepikay912/CMPE220TFLiteGestureDetectionWebApp/blob/master/UIScreenshots/UI.png)
 
 
 
@@ -50,8 +52,8 @@ After obtaining the Keras H5 model, the session is cleared of all the global var
 
 # How to run app 
 
--> Open intex.html in browser 
--> Click on train to train data, test to test data, download to download model and weights
+ Open intex.html in browser 
+ Click on train to train data, test to test data, download to download model and weights
 
 # Additional Information
 
