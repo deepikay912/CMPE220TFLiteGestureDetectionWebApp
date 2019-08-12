@@ -1,16 +1,4 @@
-<!--
-Copyright 2019 Google LLC. All Rights Reserved.
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-==============================================================================
--->
+
 
 <!DOCTYPE html>
 <html>
@@ -26,21 +14,15 @@ limitations under the License.
   <h1>Model Training</h1>
   <section class="top-section">
 
-<!-- Hyper params. -->
+
     <div class="left-dropdown-container">
 
-      <!-- Learning rate -->
+
       <div class="dropdown-wrapper">
         <label>LEARNING RATE</label>
         <div class="dropdown">
 
-          <!-- <select id="learningRate">
-            <option value="0.00001">0.00001</option>
-            <option selected value="0.0001">0.0001</option>
-            <option value="0.01">0.001</option>
-            <option value="0.03">0.003</option>
-          </select>
-          <img class="vertically-center" src="assets/rectangle-5.svg" /> -->
+     
 
 
           <div class="custom-dropdown" id="learningRate-dropdown">
@@ -56,17 +38,10 @@ limitations under the License.
         </div>
       </div>
 
-      <!-- Batch size -->
       <div class="dropdown-wrapper">
         <label>BATCH SIZE</label>
         <div class="dropdown">
-            <!-- <select id="batchSizeFraction">
-              <option value="0.05">0.05</option>
-              <option value="0.1">0.1</option>
-              <option selected value="0.4">0.4</option>
-              <option value="1">1</option>
-          </select>
-          <img class="vertically-center" src="assets/rectangle-5.svg" /> -->
+         
 
 
           <div class="custom-dropdown" id="batchSizeFraction-dropdown">
@@ -83,16 +58,11 @@ limitations under the License.
         </div>
       </div>
 
-      <!-- Epochs -->
+    
       <div class="dropdown-wrapper">
         <label>EPOCHS</label>
         <div class="dropdown">
-          <!-- <select id="epochs">
-            <option value="10">10</option>
-            <option selected value="20">20</option>
-            <option value="40">40</option>
-          </select>
-          <img class="vertically-center" src="assets/rectangle-5.svg" /> -->
+         
 
           <div class="custom-dropdown" id="epochs-dropdown">
             <div id="epochs" class="custom-select"></div>
@@ -108,16 +78,10 @@ limitations under the License.
         </div>
       </div>
 
-      <!-- Hidden units -->
       <div class="dropdown-wrapper">
         <label>HIDDEN UNITS</label>
         <div class="dropdown">
-          <!-- <select id="dense-units">
-            <option value="10">10</option>
-            <option selected value="100">100</option>
-            <option value="200">200</option>
-          </select>
-          <img class="vertically-center" src="assets/rectangle-5.svg" /> -->
+      
 
 
           <div class="custom-dropdown" id="dense-units-dropdown">
@@ -150,25 +114,25 @@ limitations under the License.
     <div class="right-button-container">
 
       <div>
-        <!-- Train Model -->
+    
         <button id="train" class="train-button disabled"><span id="train-status">TRAIN MODEL</span></button>
       </div>
 
       <div>
-        <!-- Test Model -->
+       
         <button class="test-button disabled" id="predict">TEST</button>
         <button class="stop-button hide" id="stop-predict">STOP</button>
       </div>
 
       <div>
-        <!-- Download Model -->
+       
         <button id="download-model" class="download-button disabled" download >DOWNLOAD MODEL</button>
       </div>
     </div>
 
   </section>
 
-  <!-- User Help  -->
+  
   <div id="user-help" style="visibility:hidden">
     <img src="assets/shape.svg" /><span id="user-help-text"></span>
   </div>
@@ -280,7 +244,7 @@ limitations under the License.
   </section>
 </body>
 
-<!-- Load TensorFlow.js -->
+
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
 
 
